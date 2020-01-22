@@ -1,0 +1,253 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-style: inset;
+}
+
+section{
+  padding: 20px;
+}
+
+/*Navigation bar and Banner picture*/
+
+#header{
+    background-image: linear-gradient(rgb(138, 193, 255), white);
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -1%
+}
+
+.navigationBar {
+    display: inline;
+    padding: 20px;
+    font-size: larger;
+  }
+
+  #banner{
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  ul{
+    list-style-type: none;
+}
+
+li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/*First Section*/
+#firstSection{
+  
+}
+
+/*Second section*/
+
+  #historyText{
+    padding-left: 45px;
+  }
+
+/*Favorite Sports Overlay Section*/
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    width: 1050px;
+    height: 800px;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: block
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1050px;
+    height: 800px;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: rgb(43, 145, 228);
+    margin-left: 40%;
+    margin-right: 40%;
+    display: block
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }  
+
+/* Internal and External Links*/
+
+a:link {
+    color: black;
+  }
+
+  a:visited {
+    color: blue;
+  }
+
+  a:hover {
+    color: cornflowerblue;
+  }
+
+  /*Headers and Div Formats*/
+
+  h2{
+      text-align: center;
+  }
+
+  div{
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  /*Fourth Section Favorite Athletes*/
+.favAthletes{
+  text-align: center;
+}
+
+.favAthletesPics{
+  width: auto;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20%;
+}
+
+  /*Fifth Section Olympic Records*/
+
+  .recordContainer {
+    position: relative;
+    width: 50%;
+    margin-left: 420px;
+  }
+  
+  .athletePic {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    float: left;
+    padding-right: 25px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .recordContainer.hover .image {
+    opacity: 0.3;
+  }
+
+  .recordContainer:hover .middle {
+    opacity: 1;
+  }  
+  
+  .recordText {
+    background-color: rgb(161, 209, 248);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: bold;
+  }
+
+  .recordBio{
+    padding-left: 25px;
+    padding-right: 15px;
+    margin: right;
+    width: auto;
+    border: 3px solid rgb(36, 136, 218);
+  }
+
+
+  /*Pictures and Video Layout*/
+
+  .athletePic {
+    width: 580px;
+    height: 580px;
+}
+
+#promoVideo{
+  width: 1100px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+
+/*Photo Gallery*/
+
+.pictures{
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  margin-left: 18px;
+  margin-right: auto;
+}
+
+/*Footer Format*/
+
+#olympicRings{
+    height: 50px;
+    width: 95px;
+    margin-left: 100px;
+}
+
+.footerRings{
+    margin-left: 25px;
+}
+
+#olympicRings{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
